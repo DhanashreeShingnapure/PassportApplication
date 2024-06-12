@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Blog - FlexStart Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+  <!-- =======================================================
+  * Template Name: FlexStart
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Updated: Jun 06 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="blog-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="E:\Dhanshree\Thinkbridge\Training Session\Module6_Bootstrap\Project_assignment_Flexstart\FlexStart\assets\img\NB_logo.png" alt="">
+        <h1 class="sitename">VisaVoyage</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#" class="active">Home<br></a></li>
+          <li><a href="#values">About</a></li>
+          <li><a href="NewApplication.html">NewApplication</a></li>
+          <li class="dropdown"><a href="#"><span>Categories</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="E:\Dhanshree\Thinkbridge\Training Session\Module6_Bootstrap\Project_assignment_Flexstart\FlexStart\NewApplication.html">New Passport Application</a></li>
+              <li><a href="E:\Dhanshree\Thinkbridge\Training Session\Module6_Bootstrap\Project_assignment_Flexstart\FlexStart\PassportRenewal.html">Renewal of Passport</a></li>
+              <li><a href="E:\Dhanshree\Thinkbridge\Training Session\Module6_Bootstrap\Project_assignment_Flexstart\FlexStart\History.html">History</a></li>
+              <li><a href="E:\Dhanshree\Thinkbridge\Training Session\Module6_Bootstrap\Project_assignment_Flexstart\FlexStart\Complaint.html">Feedback</a></li>
+              <li><a href="E:\Dhanshree\Thinkbridge\Training Session\Module6_Bootstrap\Project_assignment_Flexstart\FlexStart\Complaint.html">Complaint</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted flex-md-shrink-0" href="index.html#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-blog.html">
+              <h1>Welcome to the New Passport Application Page</h1>
+              <p class="mb-0">Embark on your global adventures with ease by applying for your new passport through our streamlined application process.</p><p>Whether you are a first-time applicant or renewing an old passport,</p><p>we are here to make the process as smooth and hassle-free as possible.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">New Application</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-8">
+
+          <!-- Blog Posts Section -->
+          <section id="blog-posts" class="blog-posts section">
+
+            <div class="container">
+
+              <div class="row gy-5">
+
+                <div class="col-12">
+                    <div class="content">
+                      <table>
+                        <tr>
+                            <td id="service_required">
+                                <h2>1. Service Required</h2>
+                                <label>1.1 Type of Application:</label><br>
+                                <input type="radio" id="normal" name="application_type" value="normal">
+                                <label for="normal">Normal</label><br>
+                                <input type="radio" id="tatkaal" name="application_type" value="tatkaal">
+                                <label for="tatkaal">Tatkaal</label><br><br>
+        
+                                <label>1.2 Type of Passport Booklet:</label><br>
+                                <input type="radio" id="36_pages" name="booklet_type" value="36_pages">
+                                <label for="36_pages">36 Pages</label><br>
+                                <input type="radio" id="60_pages" name="booklet_type" value="60_pages">
+                                <label for="60_pages">60 Pages</label><br><br>
+
+                                <label>1.3 Validity Required:</label><br>
+                                <input type="radio" id="10_years" name="validity" value="10_years">
+                                <label for="10_years">10 Years</label><br>
+                                <input type="radio" id="up_to_18" name="validity" value="up_to_18">
+                                <label for="up_to_18">Up to age 18</label><br>
+                                <small>(For minors between 15 and 18 years)</small><br><br>
+                            </td>
+                        </tr>
+                      </table>
+                    </div>
+                </div><!-- End post list item -->
+
+                <div class="col-12">
+                    <div class="content bg-light">
+                      <table>
+                        <tr>
+                            <td id="applicant_details">
+                                <h2>2. Applicant Details</h2>
+                                <label for="given_name">2.1 Applicant's Given Name:</label>
+                                <input type="text" id="given_name" name="given_name"><br><br>
+
+                                <label for="surname">2.2 Surname:</label>
+                                <input type="text" id="surname" name="surname"><br><br>
+
+                                <label>2.3 Are you known by any other names (aliases)?</label><br>
+                                <input type="radio" id="aliases_yes" name="aliases" value="yes">
+                                <label for="aliases_yes">Yes</label><br>
+                                <input type="radio" id="aliases_no" name="aliases" value="no">
+                                <label for="aliases_no">No</label><br><br>
+
+                                <label>2.4 Have you ever changed your name?</label><br>
+                                <input type="radio" id="name_change_yes" name="name_change" value="yes">
+                                <label for="name_change_yes">Yes</label><br>
+                                <input type="radio" id="name_change_no" name="name_change" value="no">
+                                <label for="name_change_no">No</label><br><br>
+
+                                <label for="dob">2.5 Date of Birth (DD-MM-YYYY):</label>
+                                <input type="text" id="dob" name="dob"><br><br>
+
+                                <label for="place_of_birth">2.6 Place of Birth:</label>
+                                <input type="text" id="place_of_birth" name="place_of_birth"><br><br>
+
+                                <label for="district">District (If born in India):</label>
+                                <input type="text" id="district" name="district"><br><br>
+
+                                <label for="state_ut">State/UT (If born in India):</label>
+                                <input type="text" id="state_ut" name="state_ut"><br><br>
+
+                                <label for="country">Region/Country (If born abroad):</label>
+                                <input type="text" id="country" name="country"><br><br>
+
+                                <label for="gender">2.7 Gender:</label><br>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label><br>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label><br>
+                                <input type="radio" id="transgender" name="gender" value="transgender">
+                                <label for="transgender">Transgender</label><br><br>
+
+                                <label for="marital_status">2.8 Marital Status:</label><br>
+                                <input type="radio" id="single" name="marital_status" value="single">
+                                <label for="single">Single</label><br>
+                                <input type="radio" id="married" name="marital_status" value="married">
+                                <label for="married">Married</label><br>
+                                <input type="radio" id="divorced" name="marital_status" value="divorced">
+                                <label for="divorced">Divorced</label><br>
+                                <input type="radio" id="widow_widower" name="marital_status" value="widow_widower">
+                                <label for="widow_widower">Widow/Widower</label><br>
+                                <input type="radio" id="separated" name="marital_status" value="separated">
+                                <label for="separated">Separated</label><br><br>
+
+                                <label for="citizenship">2.9 Citizenship of India by:</label><br>
+                                <input type="radio" id="birth" name="citizenship" value="birth">
+                                <label for="birth">Birth</label><br>
+                                <input type="radio" id="descent" name="citizenship" value="descent">
+                                <label for="descent">Descent</label><br>
+                                <input type="radio" id="registration" name="citizenship" value="registration">
+                                <label for="registration">Registration</label><br>
+                                <input type="radio" id="naturalization" name="citizenship" value="naturalization">
+                                <label for="naturalization">Naturalization</label><br><br>
+
+                                <label for="pan">2.10 PAN (If available):</label>
+                                <input type="text" id="pan" name="pan"><br><br>
+
+                                <label for="voter_id">2.11 Voter ID (If available):</label>
+                                <input type="text" id="voter_id" name="voter_id"><br><br>
+
+                                <label for="employment">2.12 Employment Type:</label><br>
+                                <input type="radio" id="psu" name="employment" value="psu">
+                                <label for="psu">PSU</label><br>
+                                <input type="radio" id="government" name="employment" value="government">
+                                <label for="government">Government</label><br>
+                                <input type="radio" id="statutory_body" name="employment" value="statutory_body">
+                                <label for="statutory_body">Statutory Body</label><br>
+                                <input type="radio" id="retired_gov_servant" name="employment" value="retired_gov_servant">
+                                <label for="retired_gov_servant">Retired Government Servant</label><br>
+                                <input type="radio" id="self_employed" name="employment" value="self_employed">
+                                <label for="self_employed">Self Employed</label><br>
+                                <input type="radio" id="private" name="employment" value="private">
+                                <label for="private">Private</label><br>
+                                <input type="radio" id="homemaker" name="employment" value="homemaker">
+                                <label for="homemaker">Homemaker</label><br>
+                                <input type="radio" id="not_employed" name="employment" value="not_employed">
+                                <label for="not_employed">Not Employed</label><br>
+                                <input type="radio" id="retired_private" name="employment" value="retired_private">
+                                <label for="retired_private">Retired-Private Service</label><br>
+                                <input type="radio" id="student" name="employment" value="student">
+                                <label for="student">Student</label><br>
+                                <input type="radio" id="others" name="employment" value="others">
+                                <label for="others">Others</label><br>
+                                <input type="radio" id="owners_partners" name="employment" value="owners_partners">
+                                <label for="owners_partners">Owners, Partners & Directors of companies which are members of CII, FICCI & ASSOCHAM</label><br><br>
+
+                                <label for="organization">2.13 If employed in Government/Statutory Body/PSU, specify organization name:</label>
+                                <input type="text" id="organization" name="organization"><br><br>
+
+                                <label for="gov_servant">2.14 Is either of your parent (in case of minor)/ spouse, a government servant?</label><br>
+                                <input type="radio" id="gov_servant_yes" name="gov_servant" value="yes">
+                                <label for="gov_servant_yes">Yes</label><br>
+                                <input type="radio" id="gov_servant_no" name="gov_servant" value="no">
+                                <label for="gov_servant_no">No</label><br><br>
+
+                                <label for="education">2.15 Educational Qualification:</label><br>
+                                <input type="radio" id="7th_pass" name="education" value="7th_pass">
+                                <label for="7th_pass">7th pass or less</label><br>
+                                <input type="radio" id="8th_9th" name="education" value="8th_9th">
+                                <label for="8th_9th">Between 8th and 9th Standard</label><br>
+                                <input type="radio" id="10th_pass" name="education" value="10th_pass">
+                                <label for="10th_pass">10th pass and above</label><br>
+                                <input type="radio" id="graduate_above" name="education" value="graduate_above">
+                                <label for="graduate_above">Graduate and above</label><br><br>
+
+                                <label for="non_ecr">2.16 Are you eligible for Non-ECR category?</label><br>
+                                <input type="radio" id="non_ecr_yes" name="non_ecr" value="yes">
+                                <label for="non_ecr_yes">Yes</label><br>
+                                <input type="radio" id="non_ecr_no" name="non_ecr" value="no">
+                                <label for="non_ecr_no">No</label><br><br>
+
+                                <label for="distinguishing_mark">2.17 Visible Distinguishing Mark:</label>
+                                <input type="text" id="distinguishing_mark" name="distinguishing_mark"><br><br>
+
+                                <label for="aadhaar">2.18 Aadhaar Number:</label>
+                                <input type="text" id="aadhaar" name="aadhaar"><br><br>
+                            </td>
+                        </tr></font>
+                    </table>
+                    </div>
+                </div><!-- End post list item -->
+
+                <div class="col-12">
+                  <table>
+                    <tr>
+                        <td id="family_details">
+                            <h2>3. Family Details</h2>
+                            <label for="father_name">3.1 Father's Given Name:</label>
+                            <input type="text" id="father_name" name="father_name"><br><br>
+            
+                            <label for="father_surname">Father's Surname:</label>
+                            <input type="text" id="father_surname" name="father_surname"><br><br>
+            
+                            <label for="mother_name">3.2 Mother's Given Name:</label>
+                            <input type="text" id="mother_name" name="mother_name"><br><br>
+            
+                            <label for="mother_surname">Mother's Surname:</label>
+                            <input type="text" id="mother_surname" name="mother_surname"><br><br>
+            
+                            <label for="guardian_name">3.3 Legal Guardian's Given Name (If applicable):</label>
+                            <input type="text" id="guardian_name" name="guardian_name"><br><br>
+            
+                            <label for="guardian_surname">Legal Guardian's Surname:</label>
+                            <input type="text" id="guardian_surname" name="guardian_surname"><br><br>
+            
+                            <label for="spouse_name">3.4 Spouse's Given Name:</label>
+                            <input type="text" id="spouse_name" name="spouse_name"><br><br>
+            
+                            <label for="spouse_surname">Spouse's Surname:</label>
+                            <input type="text" id="spouse_surname" name="spouse_surname"><br><br>
+            
+                            <label for="minor_details">3.5 If applicant is minor, provide following details:</label><br><br>
+            
+                            <label for="father_passport">Father/ Legal Guardian's File/ Passport Number:</label>
+                            <input type="text" id="father_passport" name="father_passport"><br><br>
+            
+                            <label for="father_nationality">Father/ Legal Guardian's Nationality, if not Indian:</label>
+                            <input type="text" id="father_nationality" name="father_nationality"><br><br>
+            
+                            <label for="mother_passport">Mother/ Legal Guardian's File/ Passport Number:</label>
+                            <input type="text" id="mother_passport" name="mother_passport"><br><br>
+            
+                            <label for="mother_nationality">Mother/ Legal Guardian's Nationality, if not Indian:</label>
+                            <input type="text" id="mother_nationality" name="mother_nationality"><br><br>
+                        </td>
+                    </tr>
+                  </table>
+                </div><!-- End post list item -->
+
+                <div class="col-12 bg-light">
+                  <table>
+                    <tr>
+                        <td id="residential_address">
+                            <h2>4. Present Residential Address Details</h2>
+                            <label for="house_no">4.1 House No. and Street Name:</label>
+                            <input type="text" id="house_no" name="house_no"><br><br>
+  
+                            <label for="village_town_city">Village or Town or City:</label>
+                            <input type="text" id="village_town_city" name="village_town_city"><br><br>
+  
+                            <label for="district">District:</label>
+                            <input type="text" id="district" name="district"><br><br>
+  
+                            <label for="police_station">Police Station:</label>
+                            <input type="text" id="police_station" name="police_station"><br><br>
+  
+                            <label for="state_ut">State/ UT:</label>
+                            <input type="text" id="state_ut" name="state_ut"><br><br>
+  
+                            <label for="pin">PIN:</label>
+                            <input type="text" id="pin" name="pin"><br><br>
+  
+                            <label for="mobile">Mobile Number:</label>
+                            <input type="text" id="mobile" name="mobile"><br><br>
+  
+                            <label for="telephone">Telephone Number:</label>
+                            <input type="text" id="telephone" name="telephone"><br><br>
+  
+                            <label for="email">Email ID:</label>
+                            <input type="email" id="email" name="email"><br><br>
+  
+                            <label for="emergency_contact">4.4 Is permanent address the same as present address?</label><br>
+                            <input type="radio" id="same_address_yes" name="same_address" value="yes">
+                            <label for="same_address_yes">Yes</label><br>
+                            <input type="radio" id="same_address_no" name="same_address" value="no">
+                            <label for="same_address_no">No</label><br><br>
+  
+                            <label>4.5 Permanent Address (If different from above):</label><br>
+                            <label for="permanent_house_no">House No. and Street Name:</label>
+                            <input type="text" id="permanent_house_no" name="permanent_house_no"><br><br>
+  
+                            <label for="permanent_village_town_city">Village or Town or City:</label>
+                            <input type="text" id="permanent_village_town_city" name="permanent_village_town_city"><br><br>
+  
+                            <label for="permanent_district">District:</label>
+                            <input type="text" id="permanent_district" name="permanent_district"><br><br>
+  
+                            <label for="permanent_police_station">Police Station:</label>
+                            <input type="text" id="permanent_police_station" name="permanent_police_station"><br><br>
+  
+                            <label for="permanent_state_ut">State/ UT:</label>
+                            <input type="text" id="permanent_state_ut" name="permanent_state_ut"><br><br>
+  
+                            <label for="permanent_pin">PIN:</label>
+                            <input type="text" id="permanent_pin" name="permanent_pin"><br><br>
+  
+                            <label for="permanent_mobile">Mobile Number:</label>
+                            <input type="text" id="permanent_mobile" name="permanent_mobile"><br><br>
+  
+                            <label for="permanent_telephone">Telephone Number:</label>
+                            <input type="text" id="permanent_telephone" name="permanent_telephone"><br><br>
+  
+                            <label for="permanent_email">Email ID:</label>
+                            <input type="email" id="permanent_email" name="permanent_email"><br><br>
+                        </td>
+                    </tr>
+                  </table>
+  
+
+                </div><!-- End post list item -->
+
+                <div class="col-12">
+                  <table>
+                    <tr>
+                        <td id="emergency_contact">
+                            <h2>5. Emergency Contact</h2>
+                            <label for="emergency_name">5.1 Name and Surname:</label>
+                            <input type="text" id="emergency_name" name="emergency_name"><br><br>
+
+                            <label for="emergency_address">5.2 Address:</label>
+                            <input type="text" id="emergency_address" name="emergency_address"><br><br>
+
+                            <label for="emergency_mobile">5.3 Mobile Number:</label>
+                            <input type="text" id="emergency_mobile" name="emergency_mobile"><br><br>
+
+                            <label for="emergency_email">5.4 Email ID:</label>
+                            <input type="email" id="emergency_email" name="emergency_email"><br><br>
+
+                            <label for="emergency_telephone">5.5 Telephone Number:</label>
+                            <input type="text" id="emergency_telephone" name="emergency_telephone"><br><br>
+                        </td>
+                    </tr>
+                  </table>
+                </div><!-- End post list item -->
+                
+                <div class="col-12 bg-light">
+                  <table>
+                    <tr>
+                        <td id="other_details">
+                            <h2>6. Other Details</h2>
+                            <label for="criminal_offense">6.1 Are any criminal proceedings pending against you in any court in India?</label><br>
+                            <input type="radio" id="criminal_offense_yes" name="criminal_offense" value="yes">
+                            <label for="criminal_offense_yes">Yes</label><br>
+                            <input type="radio" id="criminal_offense_no" name="criminal_offense" value="no">
+                            <label for="criminal_offense_no">No</label><br><br>
+  
+                            <label for="impounded_passport">6.2 Have you at any time during the period of five years immediately preceding the date of this application been convicted by a court in India for any offense involving moral turpitude and sentenced in respect thereof to imprisonment for not less than two years?</label><br>
+                            <input type="radio" id="impounded_passport_yes" name="impounded_passport" value="yes">
+                            <label for="impounded_passport_yes">Yes</label><br>
+                            <input type="radio" id="impounded_passport_no" name="impounded_passport" value="no">
+                            <label for="impounded_passport_no">No</label><br><br>
+  
+                            <label for="warrant">6.3 Has any warrant or summons for your appearance been issued and pending before a court under any law for the time being in force?</label><br>
+                            <input type="radio" id="warrant_yes" name="warrant" value="yes">
+                            <label for="warrant_yes">Yes</label><br>
+                            <input type="radio" id="warrant_no" name="warrant" value="no">
+                            <label for="warrant_no">No</label><br><br>
+  
+                            <label for="prohibited">6.4 Have you been repatriated at Government cost to India during the last five years?</label><br>
+                            <input type="radio" id="prohibited_yes" name="prohibited" value="yes">
+                            <label for="prohibited_yes">Yes</label><br>
+                            <input type="radio" id="prohibited_no" name="prohibited" value="no">
+                            <label for="prohibited_no">No</label><br><br>
+                        </td>
+                    </tr>
+                  </table>
+                </div><!-- End post list item -->
+
+                <div class="col-12">
+                  <table bgcolor="#ffffff" width="100%"><font size="+2">
+                    <tr>
+                        <td id="Documents">
+                            <h2>7. Upload Documents</h2>
+                            <label for="proof_address">7.1 Upload Proof of Address:</label><br>
+                            <input type="file" id="proof_address" name="proof_address" accept=".pdf, .jpg, .jpeg, .png"><br>
+                            <small>(eg. Water Bill, Electricity Bill)</small><br><br>
+                            
+                            <label for="proof_dob">7.2 Upload Proof of Date of Birth:</label><br>
+                            <input type="file" id="proof_dob" name="proof_dob" accept=".pdf, .jpg, .jpeg, .png"><br>
+                            <small>(eg. Birth Certificate, School leaving certificate)</small><br><br>
+
+                            <label for="identity_proof">7.3 Upload Identity Proof:</label><br>
+                            <input type="file" id="identity_proof" name="identity_proof" accept=".pdf, .jpg, .jpeg, .png"><br>
+                            <small>(eg. Adhar card, Voter ID, PAN card)</small><br><br>
+
+                            <label for="annexure_e">7.4 Upload Annexure 'E': Affidavit for passport application</label><br>
+                            <input type="file" id="annexure_e" name="annexure_e" accept=".pdf, .jpg, .jpeg, .png"><br>
+                            <small>(Affidavit for a passport application on plain paper (Annexure E))</small><br><br>
+
+                            <label for="passport_photos">7.5 Upload Passport Size Photographs:</label><br>
+                            <input type="file" id="passport_photos" name="passport_photos" accept=".jpg, .jpeg, .png"><br><br>
+
+                            <label for="additional_documents">7.6 Upload Additional Documents for Minors:</label><br>
+                            <input type="file" id="additional_documents" name="additional_documents" accept=".pdf, .jpg, .jpeg, .png"><br><br>
+
+                        </td>
+                    </tr></font>
+                  </table>
+                </div><!-- End post list item -->
+
+                <div class="col-12">
+                  <form action="E:\Dhanshree\Thinkbridge\Training Session\Module6_Bootstrap\Project_assignment_Flexstart\FlexStart\Payment.html">
+                    <button type="submit" class="btn btn-primary">Submit</button><br>
+                  </form>
+                </div>
+
+              </div><!-- End blog posts list -->
+
+            </div>
+
+          </section><!-- /Blog Posts Section -->
+
+          <!-- Pagination 2 Section -->
+          <section id="pagination-2" class="pagination-2 section">
+
+            <div class="container">
+              <div class="d-flex justify-content-center">
+                <ul>
+                  <li><a href="#">1</a></li>
+                  <li class="active"><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </section><!-- /Pagination 2 Section -->
+
+        </div>
+
+        <div class="col-lg-4 sidebar">
+
+          <div class="widgets-container ">
+
+            <!-- Search Widget -->
+            <div class="search-widget widget-item">
+
+              <h3 class="widget-title">Search</h3>
+              <form action="">
+                <input type="text">
+                <button type="submit"><i class="bi bi-search"></i></button>
+              </form>
+
+            </div><!--/Search Widget -->
+
+            <!-- Categories Widget -->
+            <div class="categories-widget widget-item">
+                <ul class="none">
+                    <li><a href="#service_required">Service Required</a></li><br>
+                    <li><a href="#applicant_details">Applicant Details</a></li><br>
+                    <li><a href="#family_details">Family Details</a></li><br>
+                    <li><a href="#residential_address">Present Residential Address Details</a></li><br>
+                    <li><a href="#emergency_contact">Emergency Contact</a></li><br>
+                    <li><a href="#other_details">Other Details</a></li><br>
+                    <li><a href="#Documents">Documents</a></li><br>
+                </ul>
+                <h4>Document Checklist</h4>
+                <ul>
+                    <li><input type="checkbox" id="doc_7_1" > 7.1 Proof of Address</li>
+                    <li><input type="checkbox" id="doc_7_2" > 7.2 Proof of Date of Birth</li>
+                    <li><input type="checkbox" id="doc_7_3" > 7.3 Identity Proof</li>
+                    <li><input type="checkbox" id="doc_7_4" > 7.4 Annexure 'E': Affidavit for passport application</li>
+                    <li><input type="checkbox" id="doc_7_5" > 7.5 Passport Size Photographs</li>
+                    <li><input type="checkbox" id="doc_7_6" > 7.6 Additional Documents for Minors</li>
+                </ul>
+
+            </div><!--/Categories Widget -->
+
+            <!-- Recent Posts Widget -->
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">FlexStart</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">FlexStart</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
